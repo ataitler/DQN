@@ -1,0 +1,3 @@
+This is a vanilla DQN version for the OpenAI env.
+DQN file is the standard DQN from the 2013 Deepmind paper.
+DDQN is Double DQN as presented in the 2015 paper from van Hasselt .
