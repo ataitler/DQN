@@ -1,0 +1,2 @@
+Early implementation of DQN, used for the continuous inverted pendulum on a cart.
+The current implementation, implements continuous exploration and increating target update rate.
