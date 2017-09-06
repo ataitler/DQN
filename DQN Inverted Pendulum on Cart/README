@@ -1,2 +1,3 @@
 Early implementation of DQN, used for the continuous inverted pendulum on a cart.
-The current implementation, implements continuous exploration and increating target update rate.
+DQN.py - implements vanilla DQN for OpenAI's inverted pendulum
+DQN2.py - implements continuous exploration and increating target update rate, for continuous inverted pendulum on cart.
