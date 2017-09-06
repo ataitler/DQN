@@ -1,7 +1,7 @@
 This is the custom built environment I created for the Air Hockey and for inverted pendulum on a cart.
 Hockey.py - Hockey-v0
-Hockey2.py - Hockey-v3
-Hockey3.py - Hockey-v2
+Hockey2.py - Hockey-v2
+Hockey3.py - Hockey-v3
 HockeyLeft.py - HockeyLeft-v0
 HockeyMiddle.py - HockeyMiddle-v0
 HockeyRight.py - HockeyRight-v0
