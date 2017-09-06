@@ -6,3 +6,8 @@ HockeyLeft.py - HockeyLeft-v0
 HockeyMiddle.py - HockeyMiddle-v0
 HockeyRight.py - HockeyRight-v0
 cartpole2.py - continuous inverted pendulum on a cart
+
+all environments have to be registered in:
+1. /gym/envs/my_collection/__init__.py 
+2. /gym/envs/__init__.py
+3. gym/scoreboard/__init__.py
