@@ -9,7 +9,7 @@ class OUnoise():
 	W_sigma = 0.3
 	dt = 0.05
 
-	def __init__(self, action_dim, theta=0.15, sigma=0.3, mu=0, dt=0.05):
+	def __init__(self, action_dim, theta=0.15, sigma=0.2, mu=0, dt=0.05):
 		self.theta = theta
 		self.sigma = sigma
 		self.mu = mu
@@ -25,7 +25,7 @@ class OUnoise():
 		return self._noise()
 
 	def _advance(self):
-		W = np.random.normal(self.W_mu, self.W_sigma)
+		W = np.random.normal(self.W_mu, self.W_sigma, self.action_dim)
 		dt = self.dt
 		d_state = self.theta * (self.state - self.mu) * dt + self.sigma * W * dt
 		self.state = self.state + d_state 
